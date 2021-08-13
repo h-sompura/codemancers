@@ -1,8 +1,8 @@
-
+import MessageSender from "./components/MessageSender";
 function App() {
   return (
     <div className="App">
-      <p>Hello World</p>
+      <MessageSender />
     </div>
   );
 }

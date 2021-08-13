@@ -1,0 +1,29 @@
+.gif__container > form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.gif__container > form > input {
+    background-color: #eff2f5;
+    padding:1.5em 2.4em;
+    margin:0 1em;
+    outline-width:0;
+    border:none;
+    border-radius: 999px;
+}
+.gif__container > form > button {
+    outline-width:0;
+    border:none;
+    display: flex;
+    align-self: flex-end;
+    padding: 1.3em 2.4em;
+    background-color:#4267b2;
+    border-radius: 999px;
+    color:white;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.gif__container > form > button > h3{
+    margin-left: .6em;
+}
